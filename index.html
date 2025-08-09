@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dulce Sabor</title>
+    <title>🍦 Dulce Sabor</title>
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
@@ -31,10 +31,6 @@
             <h1>Bienvenido a Dulce Sabor</h1>
             <p>Descubre el sabor de nuestros productos que te endulzaran el día.</p>
             <p>Ubicado en Av Del Jardin 56, Rancho San Jose Xilotzingo, "Dulce Sabor" es el destino ideal para los amantes de los postres. Este encantador establecimiento ofrece una amplia variedad de paletas artesanales y helados elaborados con ingredientes frescos y naturales. Desde sabores clásicos hasta combinaciones innovadoras, cada bocado es una explosión de sabor. El ambiente acogedor y colorido invita a disfrutar de momentos especiales en familia o con amigos.</p>
-            <form action="submit-email.php" method="POST">
-                <input type="email" name="email" placeholder="Introduce tu correo" required>
-                <button type="submit">Suscríbete</button>
-            </form>
         </div>
     </section>
     
@@ -44,14 +40,14 @@
             <h2>Nuestros Productos</h2>
             <div class="productos">
                 <div class="producto">
-                    <img src="assets/imagenes/fresas_crema.png" alt="Producto 1">
+                    <img src="assets/imagenes/fresa.png" alt="Producto 1">
                     <h3>Helado de Fresas con Crema</h3>
                     <p>Nuestro helado de fresas con crema está hecho con fruta natural y esa textura cremosita que te roba el corazón desde la primera cucharada..</p>
                     <button>Ver más</button>
                 </div>
                 <div class="producto">
-                    <img src="assets/imagenes/chicle.png" alt="Producto 2">
-                    <h3>Helado de Chicle</h3>
+                    <img src="assets/imagenes/chocolate.png" alt="Producto 2">
+                    <h3>Helado de Chocolate</h3>
                     <p>Descripción breve del producto</p>
                     <button>Ver más</button>
                 </div>
@@ -68,17 +64,24 @@
     <!-- Blog -->
     <section id="blog" class="blog">
         <div class="container">
-            <h2>Blog</h2>
-            <div class="articulos">
+            <h2>¿Quiere contactarnos?</h2>
+            <div class="articulos">  
+            <article>
+                    <h3>Envienos sus comentarios</h3>
+                    <p>
+                     Nuestro deseo es mejorar día con día lo que hacemos. Por eso queremos
+                     saber de usted, para poder brindarle los mejores productos y la mejor
+                     experiencia posible. Póngase en contacto con nosotros.
+                    </p>
+                    <a class="button_articulos">Contacto</a>
+            </article>
                 <article>
-                    <h3>Título del artículo</h3>
-                    <p>Resumen del artículo...</p>
-                    <a href="#">Leer más</a>
-                </article>
-                <article>
-                    <h3>Título del artículo</h3>
-                    <p>Resumen del artículo...</p>
-                    <a href="#">Leer más</a>
+                    <h3>Solo para un grupo selecto</h3>
+                    <p>RECIBA NUESTRO BOLETÍN</p>
+                    <form action="submit-email.php" method="POST">
+                    <input type="email" name="email" placeholder="Introduce tu correo" required>
+                    <button type="submit">Suscríbete</button>
+                    </form>
                 </article>
             </div>
         </div>
@@ -95,11 +98,17 @@
     <!-- Footer -->
     <footer id="contacto">
         <div class="container">
-            <p>&copy; 2025 Negocio Ejemplo. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Dulce Sabor. Todos los derechos reservados.</p>
             <div class="social">
-                <a href="https://facebook.com" target="_blank">Facebook</a>
-                <a href="https://twitter.com" target="_blank">Twitter</a>
-                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="assets/imagenes/facebook.svg">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="assets/imagenes/twitterx.svg">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="assets/imagenes/instagram.svg"
+                </a>
             </div>
         </div>
     </footer>
