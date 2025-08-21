@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>🍦 Dulce Sabor</title>
+    <link rel="icon" href="assets/imagenes/ice-cream.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Dulce Sabor</title>
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
@@ -17,19 +18,19 @@
      <!-- Navegación -->   
         <nav>
             <ul>
-                <li><a href="#jumbotron">Inicio</a></li>
-                <li><a href="#catalogo">Catálogo</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Contenido -->
-    <section id="jumbotron" class="jumbotron">
+    <section id="jumbotron" class="contenido">
         <div class="container">
             <h1>Bienvenido a Dulce Sabor</h1>
-            <p>Descubre el sabor de nuestros productos que te endulzaran el día.</p>
+            <h2>Descubre el sabor de nuestros productos que te endulzaran el día.</h2>
             <p>Ubicado en Av Del Jardin 56, Rancho San Jose Xilotzingo, "Dulce Sabor" es el destino ideal para los amantes de los postres. Este encantador establecimiento ofrece una amplia variedad de paletas artesanales y helados elaborados con ingredientes frescos y naturales. Desde sabores clásicos hasta combinaciones innovadoras, cada bocado es una explosión de sabor. El ambiente acogedor y colorido invita a disfrutar de momentos especiales en familia o con amigos.</p>
         </div>
     </section>
@@ -40,22 +41,22 @@
             <h2>Nuestros Productos</h2>
             <div class="productos">
                 <div class="producto">
-                    <img src="assets/imagenes/fresa.png" alt="Producto 1">
+                    <img src="assets/imagenes/fresa.png" alt="Helado artesanal de fresas con crema">
                     <h3>Helado de Fresas con Crema</h3>
-                    <p>Nuestro helado de fresas con crema está hecho con fruta natural y esa textura cremosita que te roba el corazón desde la primera cucharada..</p>
-                    <button>Ver más</button>
+                    <p>El helado de fresas con crema es una delicia que equilibra a la perfección lo frutal con lo cremoso. En esta versión, se aprecia una base suave y rica de crema dulce, acompañada por trozos reales de fresa o un remolino de puré natural, lo que aporta un contraste fresco y ligeramente ácido que evita que el sabor se vuelva empalagoso.</p>
+                    <button onclick="window.location.href='producto-fresa.html'">Ver más</button>
                 </div>
                 <div class="producto">
-                    <img src="assets/imagenes/chocolate.png" alt="Producto 2">
+                    <img src="assets/imagenes/chocolate.png" alt="Helado artesanal de chocolate">
                     <h3>Helado de Chocolate</h3>
-                    <p>Descripción breve del producto</p>
-                    <button>Ver más</button>
+                    <p>Este helado ofrece una textura cremosa y suave, con un sabor a cacao intenso pero equilibrado. No es demasiado dulce, lo que permite que el gusto del chocolate real se destaque.</p>
+                    <button onclick="window.location.href='producto-chocolate.html'">Ver más</button>
                 </div>
                 <div class="producto">
-                    <img src="assets/imagenes/vainilla.png" alt="Producto 3">
+                    <img src="assets/imagenes/vainilla.png" alt="Helado artesanal de vainilla">
                     <h3>Helado de Vainilla</h3>
-                    <p>Helado de Uva</p>
-                    <button>Ver más</button>
+                    <p>El helado de vainilla puede parecer simple, pero cuando está bien hecho, es una obra maestra de sutileza y equilibrio. Este en particular ofrece una textura aterciopelada y cremosa, con un sabor suave pero claramente definido a vainilla natural.</p>
+                    <button onclick="window.location.href='producto-vainilla.html'">Ver más</button>
                 </div>
             </div>
         </div>
@@ -73,11 +74,11 @@
                      saber de usted, para poder brindarle los mejores productos y la mejor
                      experiencia posible. Póngase en contacto con nosotros.
                     </p>
-                    <a class="button_articulos">Contacto</a>
+                    <a class="button_articulos" href="#contacto">Contacto</a>
             </article>
                 <article>
                     <h3>Solo para un grupo selecto</h3>
-                    <p>RECIBA NUESTRO BOLETÍN</p>
+                    <p>Reciba nuestro boletín</p>
                     <form action="submit-email.php" method="POST">
                     <input type="email" name="email" placeholder="Introduce tu correo" required>
                     <button type="submit">Suscríbete</button>
@@ -97,19 +98,19 @@
 
     <!-- Footer -->
     <footer id="contacto">
-        <div class="container">
-            <p>&copy; 2025 Dulce Sabor. Todos los derechos reservados.</p>
+        <div class="container">            
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="assets/imagenes/facebook.svg">
+                    <img src="assets/imagenes/facebook.svg" alt="Facebook">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img src="assets/imagenes/twitterx.svg">
+                    <img src="assets/imagenes/twitterx.svg" alt="X">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="assets/imagenes/instagram.svg"
+                    <img src="assets/imagenes/instagram.svg" alt="Instagram">
                 </a>
             </div>
+            <p>&copy; 2025 Dulce Sabor. Todos los derechos reservados.</p>
         </div>
     </footer>
 
